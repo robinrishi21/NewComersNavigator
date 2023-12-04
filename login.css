@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgba(158, 41, 158, 0.549); */
+}
+.main-body {
+  height: auto;
+  width: auto;
+  border: 2px solid;
+  background-color: rgba(48, 137, 227, 0.811);
+
+}
+.main {
+  height: 610px;
+  width: auto;
+  margin-left: 135px;
+  margin-right: 186px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  /* border: 2px solid; */
+  border-radius: 25px;
+  box-shadow: 0px 0px 12px black;
+  background-color: white;
+}
+.img {
+  height: 600px;
+  width: 530px;
+  /* border: 2px solid; */
+  border-top-left-radius: 20px;
+  display: inline-block;
+  border-bottom-left-radius: 20px;
+  background-image: url(images/4957136.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+.form {
+  position: absolute;
+  top: 61px;
+  left: 670px;
+  height: 600px;
+  width: 670px;
+  /* border: 2px solid; */
+
+}
+#email {
+  height: 54px;
+  width: 533px;
+  position: absolute;
+  top: 227px;
+  left: 53px;
+  padding-left: 13px;
+  border: 2px solid rgb(192, 192, 192);
+  border-radius: 5px;
+}
+#pass {
+  position: absolute;
+  height: 54px;
+  width: 533px;
+  top: 294px;
+  left: 53px;
+  padding-left: 13px;
+  border: 2px solid rgb(192, 192, 192);
+  border-radius: 5px;
+}
+.btn {
+  position: absolute;
+  top: 363px;
+  left: 54px;
+  /* border: 1px solid; */
+  height: 53px;
+  width: 533px;
+  text-align: center;
+  padding-top: 17px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgb(52, 52, 52);
+  color: white;
+  border-radius: 5px;border-radius: 5px;
+  box-shadow: 0px 5px 5px rgb(182, 181, 181);
+}
+.logo {
+  height: 140px;
+  width: 150px;
+  /* border: 1px solid; */
+  display: inline-block;
+  background-image: url(images/LOGO1.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 1px;
+  left: 230px;
+}
+.main-logo>h1 {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  font-size: 45px;
+  font-weight: 150;
+}
+.signin {
+  position: absolute;
+  top: 175px;
+  left: 53px;
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
+.fp {
+  position: absolute;
+  top: 440px;
+  left: 56px;
+  color: gray;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.register {
+  position: absolute;
+  top: 463px;
+  left: 56px;
+  color: rgb(104, 104, 191);
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.pri {
+  position: absolute;
+  top: 560px;
+  left: 54px;
+  color: gray;
+  font-size: 15px;
+
+}

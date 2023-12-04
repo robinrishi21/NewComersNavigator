@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+#main-body {
+  height: 700px;
+  width: 1300px;
+  margin-top: 25px;
+  margin-left: 110px;
+  /* border: 2px solid; */
+  display: grid;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-columns: 280px 280px 280px 280px;
+  gap: 35px;
+  justify-content: space-between;
+}
+.items {
+  /* border: 2px solid; */
+  display: inline-block;
+  border-radius: 10px;
+  font-family: sans-serif;
+  box-shadow: 0px 0px 12px black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.img {
+  height: 170px;
+  width: 280px;
+  /* border: 2px solid; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  background-size: cover;
+}
+.img1 {
+  background-image: url(https://m.media-amazon.com/images/I/71bPO973dkL.jpg);
+  background-size: 278px 185px;
+}
+.img2 {
+  background-image: url(https://www.bookkar.co.in/wp-content/uploads/2017/09/MCA-3rd-Sem-1-1.jpg);
+  background-size: 300px 170px;
+}
+.img3 {
+  background-image: url(https://www.bookkar.co.in/wp-content/uploads/2017/09/IT-3rd-Semester.png);
+  background-size: 280px 170px;
+}
+.img4 {
+  background-image: url(https://rukminim1.flixcart.com/image/416/416/kbi9h8w0/regionalbooks/n/y/b/makaut-organizer-b-tech-electrical-engineering-6th-semester-original-imafsucbrgavky5b.jpeg?q=70);
+  background-size: 290px 180px;
+}
+.img5 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSThHt6gK_kCqaewmfXsn2E7yccQzozkPfDrw&usqp=CAU);
+  background-size: 290px 180px;
+}
+.img6 {
+  background-image: url(https://m.media-amazon.com/images/I/41GxpXfcYhL._BO1,204,203,200_.jpg);
+  background-size: 290px 180px;
+}
+.img7 {
+  background-image: url(https://rukminim1.flixcart.com/image/416/416/kbi9h8w0/regionalbooks/u/v/z/makaut-organizer-b-tech-mechanical-engineering-6th-semester-original-imafsufzzp6efwfh.jpeg?q=70);
+  background-size: 290px 180px;
+}
+.img8 {
+  background-image: url(https://getmybooks.sgp1.cdn.digitaloceanspaces.com/images/33649922_1.jpg);
+  background-size: 290px 180px;
+}
+
+h3 {
+  text-align: center;
+}
+
+i {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+}

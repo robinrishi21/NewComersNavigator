@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#main-body {
+  height: 700px;
+  width: 1300px;
+  margin-top: 25px;
+  margin-left: 110px;
+  /* border: 2px solid; */
+  display: grid;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-columns: 280px 280px 280px 280px;
+  gap: 45px;
+  justify-content: space-between;
+
+}
+.items {
+  /* border: 2px solid; */
+  display: inline-block;
+  border-radius: 10px;
+  font-family: sans-serif;
+  box-shadow: 0px 0px 12px black;
+
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.img {
+  height: 170px;
+  width: 280px;
+  /* border: 2px solid; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  background-size: cover;
+}
+.img1 {
+  background-image: url(images/SUMIT.jpeg);
+  background-size: 280px 180px;
+ 
+}
+.img2 {
+  background-image: url(images/SATYA.jpeg);
+  background-size: 278px 180px;
+}
+.img3 {
+  background-image: url(images/AVIJIT.jpeg);
+  background-size: 280px 180px;
+}
+.img4 {
+  background-image: url(images/sapna.jpeg);
+  background-size: 280px 180px;
+  
+}
+.img5 {
+  background-image: url(images/MANSUN.jpeg);
+  background-size: 280px 180px;
+  background-repeat: no-repeat;
+  
+}
+
+h3 {
+  text-align: center;
+}
+
+i {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+}

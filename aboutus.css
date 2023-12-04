@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .main-body {
+  width: auto;
+  height: 1500px;
+  border:  2px solid;
+  background-color: white;
+ 
+} */
+/* .main-body>div {
+  height: 370px;
+  width: 480px;
+  border: 2px solid;
+  border-radius: 15px;
+} */
+.sub-main {
+  height: 450px;
+  width: auto;
+  /* border: 2px solid; */
+  background-color: white;
+  margin-top: 13px;
+  margin-left: 85px;
+  margin-right: 85px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sub-main>div {
+  height: 430px;
+  width: 428px;
+  /* border: 2px solid; */
+  border-radius: 15px;
+
+}
+.item2 {
+  background-image: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item3 {
+  background-image: url(https://images.unsplash.com/photo-1610276198568-eb6d0ff53e48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item4 {
+  background-image: url(https://images.unsplash.com/photo-1621388987304-e23cef5f36de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+  background-size: cover;
+}
+.item6 {
+  background-image: url(https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
+  background-size: cover;
+}
+.item7 {
+  background-image: url(https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
+  background-size: cover;
+}
+.item8 {
+  background-image: url(https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
+  background-size: cover;
+}
+.meet {
+  padding-top: 10px;
+  font-size: 75px;
+  font-family: sans-serif;
+}
+.cir1 {
+  /* border: 2px solid; */
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 353px;
+  left: 89px;
+  background-color: blue;
+}
+.cir2 {
+  /* border: 2px solid; */
+  height: 150px;
+  width: 150px;
+  border-radius: 50%; 
+  position: absolute;
+  top: 353px;
+  left: 239px;
+  background-color: green;
+}
+.cir3 {
+  /* border: 2px solid; */
+  height: 150px;
+  width: 150px;
+  /* border-radius: 50%; */
+  position: absolute;
+  top: 281px;
+  left: 313px;
+  background-color: white;
+
+}
+.desc {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 20px;
+  font-size: 30px;
+}

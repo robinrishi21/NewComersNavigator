@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#main-body {
+  height: 700px;
+  width: 1300px;
+  margin-top: 25px;
+  margin-left: 110px;
+  /* border: 2px solid; */
+  display: grid;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-columns: 280px 280px 280px 280px;
+  /* gap: 25px; */
+  justify-content: space-between;
+
+}
+.items {
+  /* border: 2px solid; */
+  display: inline-block;
+  border-radius: 10px;
+  font-family: sans-serif;
+  box-shadow: 0px 0px 12px black;
+
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.img {
+  height: 170px;
+  width: 280px;
+  /* border: 2px solid; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  background-size: cover;
+}
+.img1 {
+  background-image: url(https://img-global.cpcdn.com/recipes/617900e86a06ca27/680x482cq70/%E0%A6%AA%E0%A6%9F%E0%A6%87-%E0%A6%AA%E0%A6%B0%E0%A6%9F-petai-parota-recipe-in-bengali-%E0%A6%B0%E0%A6%B8%E0%A6%AA%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%A7%E0%A6%A8-%E0%A6%9B%E0%A6%AC.jpg);
+}
+.img2 {
+  background-image: url(https://futuredish.com/wp-content/uploads/2020/07/Screen-Shot-2020-07-23-at-6.35.36-PM-1.jpg)
+}
+.img3 {
+  background-image: url(https://pbs.twimg.com/media/DXk6ajlVwAEC9Jz.jpg:large);
+}
+.img4 {
+  background-image: url(https://cdn.shopify.com/s/files/1/0273/1241/articles/IDLIHEALTHYBREAKFASTSTUDY1_15.jpg?v=1479206314);
+}
+
+h3 {
+  text-align: center;
+}
+
+i {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+}

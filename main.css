@@ -1,0 +1,554 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  background-color: rgb(119, 198, 160);
+}
+.mainhead {
+  /* border: 2px solid black; */
+  width: 400px;
+  height: 60px;
+  font-size: 40px;
+  margin-left: 20px;
+  color: white;
+}
+.main-nav {
+  /* border: 2px solid black;  */
+  /* background-color: skyblue; */
+  color: white;
+  font-size: 20px;
+  margin-left: 200px;
+  /* margin-top: 20px; */
+  width: 550px;
+  height: 60px;
+
+  display: flex;
+}
+/* child inside Main nav */
+.child {
+  margin: 20px 40px;
+}
+.main-nav a {
+  text-decoration: none;
+  color: white;
+}
+.btn {
+  height: 45px;
+  width: 130px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-top: 13px;
+  padding-left: 18px;
+  border: 1px solid white;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+/* header illustration */
+.header {
+  /* margin-top: 80px; */
+  width: auto;
+  height: 500px;
+  background-image: url(images/clg4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 2px solid black;  */
+  background-position: center;
+}
+
+/* Our Service */
+.heading {
+  font-size: 40px;
+}
+
+/* underline of Our Service */
+.hr1 {
+  width: 100px;
+  margin-left: 720px;
+  height: 3px;
+  background-color: #f5d058;
+  border: none;
+}
+
+/* Services div */
+.Service {
+  background-color: white;
+  height: 500px;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 20px;
+}
+
+/* cards in services */
+.card {
+  background-color: white;
+  height: 410px;
+  width: 270px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px grey;
+}
+.Service a {
+  text-decoration: none;
+  color: black;
+}
+.card-img1 {
+  background-image: url(images/card1.jpg);
+  height: 190px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card-img2 {
+  background-image: url(images/food.webp);
+  background-size: contain;
+  height: 190px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 11px 11px 0 0;
+}
+.card-img3 {
+  background-image: url(images/card3.webp);
+  height: 190px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card-img4 {
+  background-image: url(images/card4.jpg);
+  height: 190px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card-img5 {
+  background-image: url(images/card5.jpg);
+  height: 190px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card p {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.card h2 {
+  padding: 10px;
+}
+
+/* Quote section */
+.quote {
+  margin-top: 20px;
+  height: 400px;
+  width: auto;
+  background-color: #f7fbf4;
+}
+
+/* quote logo */
+.quote-img1 {
+  height: 38px;
+  width: 48;
+  margin-top: 50px;
+  margin-left: 730px;
+}
+.quote-img2 {
+  height: 70px;
+  width: 70px;
+  border-radius: 60px;
+  margin-top: 10px;
+  margin-left: 730px;
+}
+.quote h3 {
+  text-align: center;
+}
+.quote p {
+  font-size: 35px;
+  margin: 0 400px;
+  text-align: center;
+}
+
+/* About Section */
+.aboutus {
+  margin-top: 10px;
+  height: 570px;
+  width: auto;
+  background-color: white;
+  display: flex;
+}
+.about {
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 35px;
+  height: 500px;
+  width: 600px;
+  background-color: white;
+}
+
+.about h4 {
+  margin-top: 50px;
+  font-size: 15px;
+}
+.about h2 {
+  margin-top: 20px;
+  font-size: 35px;
+}
+.about p {
+  margin-top: 25px;
+  font-size: 18px;
+}
+.about-btn {
+  margin-top: 55px;
+  height: 45px;
+  width: 180px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 12px;
+  border-radius: 5px;
+}
+.about-btn a {
+  text-decoration: none;
+  color: black;
+}
+.about-img {
+  margin-top: 20px;
+  margin-right: 200px;
+  margin-left: 35px;
+  height: 500px;
+  width: 400px;
+  background-color: cadetblue;
+  background-image: url(images/about-img.jpg);
+  background-size: cover;
+  border-radius: 2px;
+}
+
+/* footer */
+footer {
+  height: 250px;
+  width: auto;
+  background-color: rgb(184, 216, 200);
+  color: black;
+  text-align: center;
+}
+footer h2 {
+  padding-top: 25px;
+}
+footer p {
+  margin: 0 500px;
+}
+footer img {
+  height: 75px;
+}
+
+.main-body {
+  background-color: rgb(223, 246, 238);
+}
+.house-head {
+  font-size: 30px;
+  padding-top: 60px;
+  margin-left: 130px;
+  color: rgb(108, 107, 107);
+}
+.house-head2 {
+  font-size: 17px;
+  margin-left: 138px;
+  color: rgb(108, 107, 107);
+}
+.house-menu {
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 30px;
+  height: 550px;
+  width: auto;
+  display: flex;
+  /* border: 2px solid black; */
+  /* background-color: aqua;  */
+}
+.house-menu a {
+  text-decoration: none;
+  color: black;
+}
+.menu-items1 {
+  border: 1px solid;
+  margin-top: 15px;
+  margin-left: 50px;
+  height: 300px;
+  width: 400px;
+  /* background-color: #f5d058; */
+  background-image: url(images/boys.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+.menu-items2 {
+  border: 1px solid;
+  margin-top: 15px;
+  margin-left: 50px;
+  height: 300px;
+  width: 400px;
+  /* background-color: #f5d058; */
+  background-image: url(images/girls.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+.menu-items1 p {
+  margin-left: 40px;
+  padding-top: 60px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.menu-items2 p {
+  margin-left: 40px;
+  padding-top: 60px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* boys pg & hostel */
+.boys-body {
+  height: 1500px;
+  width: auto;
+  /* border: 2px solid; */
+  background-color: rgb(223, 246, 238);
+}
+.boys-body-h1 {
+  margin-left: 140px;
+  padding-top: 15px;
+  color: gray;
+}
+.pg1 {
+  margin-top: 20px;
+  position: relative;
+  left: 15%;
+  height: 250px;
+  width: 900px;
+  /* border: 3px solid green; */
+  border-left: 1px solid green;
+  border-top: 1px solid green;
+  border-bottom: 3px solid green;
+  border-right: 3px solid green;
+  border-radius: 10px;
+  background-color: rgb(80, 175, 141);
+  box-shadow: 2px 1px 3px green;
+}
+.pg1-main {
+  height: 195px;
+  width: 898px;
+  /* border: 1px solid; */
+  border-radius: 5px;
+  display: flex;
+}
+.pg1-img {
+  height: 193px;
+  width: 250px;
+  margin-top: 3px;
+  margin-left: 3px;
+  /* border: 1px solid; */
+  background-image: url(images/boy1.jpeg);
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.pg1-desc {
+  color: rgb(56, 45, 45);
+  margin-left: 20px;
+  height: 195px;
+  width: 610px;
+  /* border: 1px solid; */
+}
+.price {
+  display: flex;
+}
+.p1 {
+  position: absolute;
+  left: 32%;
+  top: 23%;
+}
+.p1 h2 {
+  font-size: 24px;
+}
+.p2 {
+  position: absolute;
+  left: 52%;
+  top: 23%;
+  font-size: 23px;
+  font-weight: bold;
+}
+.p3 {
+  position: absolute;
+  left: 75%;
+  top: 23%;
+  font-size: 23px;
+  font-weight: bold;
+}
+.pg1-desc p {
+  padding-top: 75px;
+  padding-left: 13px;
+}
+.pg1-desc h4 {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 18px;
+}
+.pg1 hr {
+  height: 1px;
+  background-color: rgb(230, 222, 222);
+  margin-left: 11px;
+  margin-right: 11px;
+  margin-top: 4px;
+  border: none;
+}
+.pg1-btn {
+  height: 30px;
+  width: 120px;
+  border: 2px solid;
+  padding-left: 18px;
+  padding-top: 3px;
+  position: absolute;
+  left: 65%;
+  top: 85%;
+  border: none;
+  font-size: 17px;
+  color: rgb(247, 241, 49);
+  text-decoration: none;
+}
+.pg1-btn2 {
+  color: white;
+  height: 30px;
+  width: 120px;
+  /* border: 2px solid black; */
+  background-color: rgb(115, 229, 77);
+  padding-left: 8px;
+  padding-top: 4px;
+  position: absolute;
+  left: 83%;
+  top: 85%;
+  border-radius: 8px;
+}
+.pg1-img2 {
+  height: 193px;
+  width: 250px;
+  margin-top: 3px;
+  margin-left: 3px;
+  /* border: 1px solid; */
+  background-image: url(images/02.jpeg);
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.pg1-img3 {
+  height: 193px;
+  width: 250px;
+  margin-top: 3px;
+  margin-left: 3px;
+  /* border: 1px solid; */
+  background-image: url(images/032.jpeg);
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.pg1-img4 {
+  height: 193px;
+  width: 250px;
+  margin-top: 3px;
+  margin-left: 3px;
+  /* border: 1px solid; */
+  background-image: url(images/04.jpeg);
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.pg1-img5 {
+  height: 193px;
+  width: 250px;
+  margin-top: 3px;
+  margin-left: 3px;
+  /* border: 1px solid; */
+  background-image: url(images/05.jpeg);
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/*girls*/
+.pg1-img6 {
+  height: 193px;
+  width: 250px;
+  margin-top: 3px;
+  margin-left: 3px;
+  /* border: 1px solid; */
+  background-image: url(https://mediacdn.99acres.com/media1/17193/7/343867400O-1644426697775.jpeg);
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.pg1-img7 {
+  height: 193px;
+  width: 250px;
+  margin-top: 3px;
+  margin-left: 3px;
+  /* border: 1px solid; */
+  background-image: url(https://mediacdn.99acres.com/media1/21137/2/422742440O-1683962287965.jpg);
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.pg1-img8 {
+  height: 193px;
+  width: 250px;
+  margin-top: 3px;
+  margin-left: 3px;
+  /* border: 1px solid; */
+  background-image: url(https://mediacdn.99acres.com/media1/21133/19/422679766O-1683898960044.jpg);
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.pg1-img9 {
+  height: 193px;
+  width: 250px;
+  margin-top: 3px;
+  margin-left: 3px;
+  /* border: 1px solid; */
+  background-image: url(https://mediacdn.99acres.com/media1/19297/5/385945522O-1665156050975.jpg);
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.pg1-img10 {
+  height: 193px;
+  width: 250px;
+  margin-top: 3px;
+  margin-left: 3px;
+  /* border: 1px solid; */
+  background-image: url(https://mediacdn.99acres.com/media1/20521/9/410429668O-1677905059430.jpg);
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}

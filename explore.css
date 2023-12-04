@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+#main-header {
+  height: 90px;
+  width: auto;
+  /* border: 2px solid; */
+  color: rgb(90, 192, 90);
+  font-size: 23px;
+  text-align: center;
+  text-shadow: 2px 2px 2px green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#expo-sub-head {
+  padding-top: 5px;
+  color: grey;
+  font-size: 13px;
+  text-shadow: none;
+}
+
+.body {
+  width: auto;
+  height: 900px;
+  /* border: 2px solid; */
+  margin-left: 120px;
+  margin-right: 100px;
+  margin-top: 10px;
+
+
+}
+.expo {
+  /* border: 2px solid;  */
+  width: 240px;
+  height: 400px;
+  margin-top: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0px 0px 12px grey;
+}
+
+.pic {
+   height: 200px;
+   width: auto;
+   /* border: 2px solid; */
+   border-top-right-radius: 8px;
+   border-top-left-radius: 8px;
+   background-image: url(https://source.unsplash.com/random/300×300/?resturants);
+   background-size: cover;
+}
+.expo>h3 {
+  font-size: 25px;
+  padding-top: 15px;
+  padding-left: 10px;
+  font-family: sans-serif;
+}
+.expo>div {
+  padding-left: 10px;
+  font-size: 13px;
+  color: grey;
+}
+i {
+  color: black;
+}
+.loc {
+  padding-top: 5px;
+  
+}
+.loc p {
+  font-size: 14px;
+}
+.phn {
+  padding-top: 5px;
+}
+.view {
+  margin-top: 15px;
+
+}
+.view>a {
+  text-decoration: none;
+}
+.view>a>span {
+  font-size: 17px;
+  color: blue;
+}
+.view>i {
+  color: blue;
+}
+
+.pic1 {
+  background-image: url(https://www.trawell.in/admin/images/upload/564578135Kolkata_Rabindra_Sarovar_Lake_Main.jpg);
+  background-size: cover;
+  animation: one 15s infinite;
+}
+
+@keyframes one {
+  20% { background-image: url(https://www.trawell.in/admin/images/upload/564578135Kolkata_Rabindra_Sarovar_Lake_Main.jpg);}
+  /* 35% { background-image: url(https://greatruns.com/wp-content/uploads/2020/12/Rabindra-Sarobar.jpg);} */
+  60% { background-image: url(https://photo.webindia123.com/gallery/29051/14404254536051_Main.jpg);}
+  90% { background-image: url(https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1568963617_20200113182328_20200113182355.png);}
+
+}
+
+.pic2 {
+  background-image: url(https://i.ytimg.com/vi/zPJI4XbZsFs/maxresdefault.jpg);
+  background-size: cover;
+  animation: two 15s infinite;
+}
+
+@keyframes two {
+  20% { background-image: url(https://i.ytimg.com/vi/zPJI4XbZsFs/maxresdefault.jpg);}
+  /* 35% { background-image: url(https://greatruns.com/wp-content/uploads/2020/12/Rabindra-Sarobar.jpg);} */
+  60% { background-image: url(https://images.jdmagicbox.com/comp/kolkata/z5/033pxx33.xx33.171204120256.a6z5/catalogue/calcutta-riverside-office-batanagar-kolkata-construction-companies-tajndo3vcc.jpg);}
+  90% { background-image: url(https://is1-2.housingcdn.com/4f2250e8/2de1c13b7c790bd5ee91794d1ec74529/v0/large/hiland_greens-bata_nagar-kolkata-hiland.jpg);}
+
+}
+
+.pic3 {
+  background-image: url(https://media.istockphoto.com/id/1219651768/photo/esplanade-area-of-kolkata.jpg?s=612x612&w=0&k=20&c=3DlpCaT8nA2zIZRg4iHT7gnWF6gVzffiTgmG4RSr868=);
+  background-size: 239px 199px;
+  animation: three 15s infinite;
+}
+
+@keyframes three {
+  20% { background-image: url(https://media.istockphoto.com/id/1219651768/photo/esplanade-area-of-kolkata.jpg?s=612x612&w=0&k=20&c=3DlpCaT8nA2zIZRg4iHT7gnWF6gVzffiTgmG4RSr868=); background-size: 239px 199px;}
+  /* 35% { background-image: url(https://greatruns.com/wp-content/uploads/2020/12/Rabindra-Sarobar.jpg);} */
+  60% { background-image: url(https://media.istockphoto.com/id/513638904/photo/shopping-near-the-new-market-kolkata-india.jpg?s=612x612&w=0&k=20&c=2xr5E-u7_ztDd5_wVumhm3daRHurz55j8MLHYC3YHZc=);}
+  90% { background-image: url(https://imgcld.yatra.com/ytimages/image/upload/t_seo_Magnum_w_452_h_285_c_fill_g_auto_q_auto:good_f_jpg/v1467007683/General_shopping8.jpg);}
+
+
+}
+
+.pic4 {
+  background-image: url(https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Victoria_Memorial.jpg);
+  background-size: 300px 220px;
+  animation: four 15s infinite;
+}
+@keyframes four {
+  20%  { background-image: url(https://planetofhotels.com/guide/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/Victoria_Memorial.jpg);
+  background-size: 300px 220px;
+
+}
+  /* 35% { background-image: url(https://greatruns.com/wp-content/uploads/2020/12/Rabindra-Sarobar.jpg);} */
+  60% { background-image: url(https://1.bp.blogspot.com/-o8YlguAx29A/XhHk_gd4d5I/AAAAAAAALA0/PzctWisQ3xIaOngvNCDseqxoxEumPyIlwCLcBGAsYHQ/s1600/81381684_1040232916338477_1919947593601777664_o.jpg);
+    background-size: 238px 195px;}
+  90% {   background-image: url(https://r2.community.samsung.com/t5/image/serverpage/image-id/330211i8042B6A6E534FBE0?v=v2);
+    background-size: 238px 200px;}
+
+
+}
+
+.pic5 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS16oorepbJo-kAkjc3XORqvOzrnzl69VDBRvnMorwAZ-0CKKlD3PkJfy3YgbsrkfUtHVo&usqp=CAU);
+  background-size: 250px 200px;
+  animation: five 15s infinite;
+}
+@keyframes five {
+  20% { background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS16oorepbJo-kAkjc3XORqvOzrnzl69VDBRvnMorwAZ-0CKKlD3PkJfy3YgbsrkfUtHVo&usqp=CAU);}
+  /* 35% { background-image: url(https://greatruns.com/wp-content/uploads/2020/12/Rabindra-Sarobar.jpg);} */
+  60% { background-image: url(https://static.toiimg.com/photo/msid-70009950/70009950.jpg);}
+  90% { background-image: url(https://kolkatatourism.travel/images//tourist-places/alipore-zoological-gardens-kolkata/alipore-zoological-gardens-kolkata-india-tourism-history.jpg);
+    background-size: 250px 200px;}
+
+
+}
+
+.pic6 {
+  background-image: url(https://www.jagranimages.com/images/11_10_2018-dakshineshwar_kali_temple_18522185.jpg);
+  animation: six 15s infinite;
+}
+@keyframes six {
+  20% { background-image: url(https://www.jagranimages.com/images/11_10_2018-dakshineshwar_kali_temple_18522185.jpg);}
+  /* 35% { background-image: url(https://greatruns.com/wp-content/uploads/2020/12/Rabindra-Sarobar.jpg);} */
+  60% {   background-image: url(https://i.pinimg.com/564x/d6/3f/1f/d63f1fa39e611c92696762d8aef930c8.jpg);
+    background-size: 239px 210px;}
+  90% { background-image: url(https://img.itinari.com/pages/images/original/ae1bc16f-cf52-4b70-8af2-1df077379539-kalighat_temple_roof-1.jpg?ch=DPR&dpr=2.625&w=1600&s=1494fb21c6198541199bb5b60e009e11);
+    background-size: 240px 200px;}
+}
+
+.pic7 {
+  background-image: url(https://hblimg.mmtcdn.com/content/hubble/img/kolkata/mmt/activities/m_activities_kolkata_dakshineshwar_kali_temple_l_397_601.jpg);
+  background-size: cover;
+  animation: seven 15s infinite;
+}
+@keyframes seven {
+  20% { background-image: url(https://hblimg.mmtcdn.com/content/hubble/img/kolkata/mmt/activities/m_activities_kolkata_dakshineshwar_kali_temple_l_397_601.jpg);}
+  /* 35% { background-image: url(https://greatruns.com/wp-content/uploads/2020/12/Rabindra-Sarobar.jpg);} */
+  60% { background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Dakhineshwar_Temple_beside_the_Hoogly%2C_West_Bengal.JPG/1200px-Dakhineshwar_Temple_beside_the_Hoogly%2C_West_Bengal.JPG);}
+  90% { background-image: url(https://t4.ftcdn.net/jpg/05/09/28/53/360_F_509285316_8cY9QEs3628I9Jm5R8dCjk5SXTsJrsSv.jpg);}
+
+}
+
